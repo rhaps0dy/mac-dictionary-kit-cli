@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [[ "$1" == "" ]] || [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]]; then
-    echo "Usage: $0 <file.ifo> [dictionary_name]"
+    echo "Usage: $0 [-h/--help] <file.ifo> [dictionary_name]"
     echo "file.ifo has to have the associated .idx and .dict(.dz) in the same directory"
     echo "dictionary_name is an optional string to name the dictionary. If it is"
     echo "not present, the file's name is used."

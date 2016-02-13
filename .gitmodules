@@ -1,0 +1,4 @@
+[submodule "mac-dictionary-kit"]
+	path = mac-dictionary-kit
+	url = git@github.com:jjgod/mac-dictionary-kit.git
+	branch = master
